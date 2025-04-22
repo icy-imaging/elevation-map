@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Inherited Icy Parent POM -->
+    <parent>
+        <groupId>org.bioimageanalysis.icy</groupId>
+        <artifactId>pom-icy</artifactId>
+        <version>3.0.0-a.4</version>
+    </parent>
+
+    <!-- Project Information -->
+    <artifactId>elevation-map</artifactId>
+    <version>3.0.0-a.1</version>
+
+    <name>Elevation Map</name>
+    <description>View a single channel of a 2D image as a 3D elevation map (X,Y,Intensity).</description>
+    <url>https://icy.bioimageanalysis.org/plugin/elevation-map/</url>
+    <inceptionYear>2020</inceptionYear>
+
+    <organization>
+        <name>Institut Pasteur</name>
+        <url>https://pasteur.fr</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>GNU GPLv3</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>adufour</id>
+            <name>Alexandre Dufour</name>
+            <roles>
+                <role>founder</role>
+                <role>lead</role>
+                <role>architect</role>
+                <role>developer</role>
+                <role>debugger</role>
+                <role>tester</role>
+                <role>maintainer</role>
+                <role>support</role>
+            </roles>
+        </developer>
+    </developers>
+</project>
