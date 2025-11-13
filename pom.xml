@@ -8,17 +8,21 @@
     <parent>
         <groupId>org.bioimageanalysis.icy</groupId>
         <artifactId>pom-icy</artifactId>
-        <version>3.0.0-a.4</version>
+        <version>3.0.0-a.5</version>
     </parent>
 
     <!-- Project Information -->
     <artifactId>elevation-map</artifactId>
-    <version>3.0.0-a.1</version>
+    <version>3.0.0-a.5</version>
 
     <name>Elevation Map</name>
     <description>View a single channel of a 2D image as a 3D elevation map (X,Y,Intensity).</description>
     <url>https://icy.bioimageanalysis.org/plugin/elevation-map/</url>
     <inceptionYear>2020</inceptionYear>
+
+    <scm>
+        <url></url>
+    </scm>
 
     <organization>
         <name>Institut Pasteur</name>

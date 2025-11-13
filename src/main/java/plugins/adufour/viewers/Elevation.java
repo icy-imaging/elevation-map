@@ -2,7 +2,6 @@ package plugins.adufour.viewers;
 
 import org.bioimageanalysis.icy.common.listener.ProgressListener;
 import org.bioimageanalysis.icy.extension.plugin.abstract_.Plugin;
-import org.bioimageanalysis.icy.extension.plugin.annotation_.IcyPluginIcon;
 import org.bioimageanalysis.icy.extension.plugin.annotation_.IcyPluginName;
 import org.bioimageanalysis.icy.extension.plugin.interface_.PluginCanvas;
 import org.bioimageanalysis.icy.gui.canvas.IcyCanvas3D;
@@ -28,7 +27,6 @@ import java.awt.event.MouseWheelEvent;
 import java.awt.image.BufferedImage;
 
 @IcyPluginName("Elevation Map")
-@IcyPluginIcon(path = "/plugins/adufour/viewers/elevation-map.png")
 public class Elevation extends Plugin implements PluginCanvas<Elevation.ElevationCanvas> {
     @Override
     public String getCanvasClassName() {
