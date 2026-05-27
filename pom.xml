@@ -4,16 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- Inherited Icy Parent POM -->
     <parent>
-        <groupId>org.bioimageanalysis.icy</groupId>
+        <groupId>fr.icy</groupId>
         <artifactId>pom-icy</artifactId>
-        <version>3.0.0-a.5</version>
+        <version>3.0.0-a.7</version>
     </parent>
 
-    <!-- Project Information -->
+    <groupId>fr.icy.extensions</groupId>
     <artifactId>elevation-map</artifactId>
-    <version>3.0.0-a.5</version>
+    <version>3.0.0-a.7</version>
 
     <name>Elevation Map</name>
     <description>View a single channel of a 2D image as a 3D elevation map (X,Y,Intensity).</description>
@@ -21,36 +20,57 @@
     <inceptionYear>2020</inceptionYear>
 
     <scm>
-        <url></url>
+        <url>https://gitlab.pasteur.fr/bia/icy/extensions/elevation-map</url>
+        <tag>v${project.version}</tag>
     </scm>
+
+    <issueManagement>
+        <system>GitLab Issues</system>
+        <url>https://gitlab.pasteur.fr/bia/icy/extensions/elevation-map/-/issues</url>
+    </issueManagement>
+    <ciManagement>
+        <system>GitLab CI</system>
+        <url>https://gitlab.pasteur.fr/bia/icy/extensions/elevation-map/-/pipelines</url>
+    </ciManagement>
 
     <organization>
         <name>Institut Pasteur</name>
-        <url>https://pasteur.fr</url>
+        <url>https://www.pasteur.fr/</url>
     </organization>
 
     <licenses>
         <license>
-            <name>GNU GPLv3</name>
-            <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+            <name>GNU LGPLv3</name>
+            <url>https://www.gnu.org/licenses/lgpl-3.0</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
 
     <developers>
         <developer>
-            <id>adufour</id>
-            <name>Alexandre Dufour</name>
-            <roles>
-                <role>founder</role>
-                <role>lead</role>
-                <role>architect</role>
-                <role>developer</role>
-                <role>debugger</role>
-                <role>tester</role>
-                <role>maintainer</role>
-                <role>support</role>
-            </roles>
+            <id>tmusset</id>
+            <name>Thomas Musset</name>
+            <organization>Institut Pasteur</organization>
+            <organizationUrl>https://pasteur.fr</organizationUrl>
+            <url>https://icy.bioimageanalysis.org/author/tmusset/</url>
         </developer>
     </developers>
+
+    <contributors>
+        <contributor>
+            <name>Alexandre Dufour</name>
+        </contributor>
+    </contributors>
+
+    <mailingLists>
+        <mailingList>
+            <name>Icy</name>
+            <post>icy.team@pasteur.fr</post>
+        </mailingList>
+    </mailingLists>
+
+    <properties>
+        <license.licenseName>GNU LGPLv3</license.licenseName>
+        <license.copyrightOwners>Institut Pasteur</license.copyrightOwners>
+    </properties>
 </project>
